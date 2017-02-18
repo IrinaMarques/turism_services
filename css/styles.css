@@ -8,7 +8,7 @@ body {
 
 .navbar-brand {
 	height: auto;
-	padding: 10px 30px 10px;
+	padding: 10px 25px 10px;
 	font-family: 'Barrio', cursive;
 	font-size: 35px;
 }
@@ -136,8 +136,8 @@ body {
 	}
 
 	.nav-item {
-		padding: 20px 5px;
-		margin: 0 5px;
+		padding: 20px 2px;
+		margin: 0 2px;
 		font-size: 16px;
 		font-weight: bold;
 	}
@@ -145,19 +145,14 @@ body {
 
 @media (min-width: 768px) {
 	.nav-brand {
-    	padding: 10px 5px 10px 10px;
+    	padding: 10px 0px;
 	}
 
 	.nav-item {
-		padding: 10px 5px;
-		margin: 0 2px;
+		padding: 10px 0;
+		margin: 0;
 		font-size: 16px;
 		font-weight: bold;
-	}
-
-	.dropdown-menu>li>a:hover {
-		color: red;
-    	background: #efefef;		
 	}
 }
 
@@ -171,10 +166,18 @@ body {
     	margin: 1px 1%;
     	width: 26%;
 	}
-/*
-	.dropdown-menu>li>a:hover {
-		color: #000;
-    	background: #efefef;		
-	}*/
+}
+
+@media (max-width:320px) {
+	.navbar-brand span {
+		padding: 2px 0;
+	}
+	.navbar-brand {
+		padding: 7px;
+	}
+
+	.navbar-toggle {
+		margin-top: 25px;
+		margin-right: 7px;
 }
 
