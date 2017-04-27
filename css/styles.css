@@ -16,6 +16,11 @@ body {
 .navbar-default {
 	background-color: #ECF0F1;
     border-color: #2C3E50;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding-bottom: 65px;
+    padding-top: 10px;
+    height: 150px; 
 }
 
 .navbar-brand span {
@@ -142,13 +147,15 @@ body {
     background-color: #313131;
 }
 
-.navbar-default .navbar-collapse,
+.jumbotron {
+    padding: 10px 5px;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    margin-top: -35px;
+}
 
 @media (max-width: 961px) {
-	.navbar-right {
-		float: left!important;
-	}
-	
 	.navbar-brand {
     	padding: 10px;
 	}
